@@ -1,4 +1,4 @@
-package dev.smjeon.wiki.domain;
+package dev.smjeon.wiki.user.domain;
 
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
