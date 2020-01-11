@@ -1,5 +1,6 @@
 package dev.smjeon.wiki.article.application;
 
+import dev.smjeon.wiki.article.application.exception.NotFoundArticleException;
 import dev.smjeon.wiki.article.domain.Article;
 import dev.smjeon.wiki.article.domain.ArticleRepository;
 import org.modelmapper.ModelMapper;

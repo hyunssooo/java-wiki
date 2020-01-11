@@ -30,3 +30,7 @@ out/
 
 ### VS Code ###
 .vscode/
+
+### OAuth Config file ###
+src/main/resources/github.yml
+src/main/resources/kakao.yml

@@ -1,6 +1,6 @@
 package dev.smjeon.wiki.user.domain;
 
-import dev.smjeon.wiki.BaseEntity;
+import dev.smjeon.wiki.common.BaseEntity;
 import lombok.AccessLevel;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

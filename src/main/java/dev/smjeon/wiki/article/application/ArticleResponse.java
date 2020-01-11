@@ -1,6 +1,6 @@
 package dev.smjeon.wiki.article.application;
 
-import dev.smjeon.wiki.Content;
+import dev.smjeon.wiki.common.Content;
 
 import java.time.LocalDateTime;
 

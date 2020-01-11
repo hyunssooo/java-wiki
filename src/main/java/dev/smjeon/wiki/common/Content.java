@@ -1,4 +1,4 @@
-package dev.smjeon.wiki;
+package dev.smjeon.wiki.common;
 
 import lombok.AccessLevel;
 import lombok.EqualsAndHashCode;
