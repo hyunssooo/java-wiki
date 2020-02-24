@@ -14,6 +14,11 @@
                     <v-btn id="btn-login" text large>로그인</v-btn>
                 </router-link>
             </v-col>
+            <v-col cols="1">
+                <router-link to="/signup">
+                    <v-btn id="btn-signup" text large>가입</v-btn>
+                </router-link>
+            </v-col>
         </v-row>
         <v-row justify="center">
             <SearchBar></SearchBar>

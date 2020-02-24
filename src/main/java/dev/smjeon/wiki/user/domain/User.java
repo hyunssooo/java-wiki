@@ -7,6 +7,7 @@ import lombok.NoArgsConstructor;
 
 import javax.persistence.Embedded;
 import javax.persistence.Entity;
+import javax.persistence.Enumerated;
 
 @NoArgsConstructor(access = AccessLevel.PRIVATE)
 @Getter
@@ -14,4 +15,12 @@ import javax.persistence.Entity;
 public class User extends BaseEntity {
     @Embedded
     private UserName userName;
+
+    @Enumerated
+    private LoginType loginType;
+
+    private String nickName;
+
+    @Embedded
+    private Email email;
 }
