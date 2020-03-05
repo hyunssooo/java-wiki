@@ -17,7 +17,7 @@
 
 <style>
     #app {
-        background-image: url('assets/img/bg_planet.jpg');
+        background-image: url('assets/img/bg/bg-009.jpg');
         background-repeat: no-repeat;
         background-size: cover;
         -webkit-font-smoothing: antialiased;

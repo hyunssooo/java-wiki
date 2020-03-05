@@ -1,27 +1,12 @@
 <template>
     <v-container>
         <v-row id="nav">
-            <v-col cols="2" id="home">
-                <router-link to="/">
-                    <img id="btn-home" src="../assets/img/logo_full_white.png" alt="Logo">
-                </router-link>
-            </v-col>
-            <v-col cols="11">
-                <span id="title">WIKI</span>
-            </v-col>
-            <v-col cols="1">
-                <router-link to="/login">
-                    <v-btn id="btn-login" text large>로그인</v-btn>
-                </router-link>
-            </v-col>
-            <v-col cols="1">
-                <router-link to="/signup">
-                    <v-btn id="btn-signup" text large>가입</v-btn>
-                </router-link>
+            <v-col>
+                <span id="title">Developer WIKI</span>
             </v-col>
         </v-row>
         <v-row justify="center">
-            <SearchBar></SearchBar>
+            <SearchBar class="middle"></SearchBar>
         </v-row>
     </v-container>
 </template>
@@ -52,14 +37,21 @@
     }
 
     #title {
-        color: lightyellow;
+        color: navajowhite;
         font-size: 5em;
         line-height: 1;
         display: inline-block;
-        margin-left: 100px;
+        font-family: 'Roboto Mono', monospace;
     }
 
     #btn-login {
         color: white;
+    }
+
+    .middle {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
 </style>
