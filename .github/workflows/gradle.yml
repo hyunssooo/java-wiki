@@ -13,5 +13,10 @@ jobs:
       uses: actions/setup-java@v1
       with:
         java-version: 1.8
+    - name: copy secret
+      env:
+        github_secret: ${{ secrets.GITHUB_CLIENT_AUTHORIZATION }}
+        kakao_secret: ${{ secrets.KAKAO_CLIENT_AUTHORIZATION }}
+      run: echo "$github_secret" > ./src/main/resources/github.yml | echo "kakao_secret" > ./src/main/resources/kakao.yml
     - name: Build with Gradle
       run: ./gradlew build
